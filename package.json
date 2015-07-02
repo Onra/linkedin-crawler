@@ -1,0 +1,27 @@
+{
+  "name": "linkedin-crawler",
+  "version": "1.0.0",
+  "description": "A web crawler for LinkedIn profile pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Onra/linkedin-crawler.git"
+  },
+  "keywords": [
+    "linkedin",
+    "crawler",
+    "api"
+  ],
+  "author": "Arnaud Christ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Onra/linkedin-crawler/issues"
+  },
+  "homepage": "https://github.com/Onra/linkedin-crawler",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
