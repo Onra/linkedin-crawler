@@ -71,7 +71,8 @@ app.get('/profile/:username', function(req, result) {
                     title: $(positionElement).find('h4 > a').html(),
                     startDate: startDate,
                     endDate: endDate,
-                    company: company
+                    company: company,
+                    summary: $(positionElement).find('p').html()
                 };
                 positions.push(position);
             });
